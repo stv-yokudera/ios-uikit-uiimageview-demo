@@ -11,7 +11,7 @@ UIImage
 1. StoryboardにUIViewとそのsubViewとしてUIImageViewを配置します。
 2. UIViewControllerとStoryboardのUIView・UIImageViewを関連付けます。
 3. png画像をAssets.xcassetsに追加します。
-4. UIViewControllerでUIImageViewに画像をセットします。
+4. StoryboardでUIImageViewに画像をセットします。
 
 ## 主要メソッド
 
