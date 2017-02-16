@@ -10,9 +10,9 @@
 		96A3E4E81E55EB0A0009E35E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A3E4E71E55EB0A0009E35E /* AppDelegate.swift */; };
 		96A3E4EA1E55EB0A0009E35E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A3E4E91E55EB0A0009E35E /* ViewController.swift */; };
 		96A3E4ED1E55EB0A0009E35E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A3E4EB1E55EB0A0009E35E /* Main.storyboard */; };
-		96A3E4EF1E55EB0A0009E35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A3E4EE1E55EB0A0009E35E /* Assets.xcassets */; };
 		96A3E4F21E55EB0A0009E35E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96A3E4F01E55EB0A0009E35E /* LaunchScreen.storyboard */; };
 		96A3E4FD1E55EB0A0009E35E /* ios_uikit_uiimageview_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A3E4FC1E55EB0A0009E35E /* ios_uikit_uiimageview_demoTests.swift */; };
+		96A3E5081E55FFF80009E35E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A3E5071E55FFF80009E35E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,12 +30,12 @@
 		96A3E4E71E55EB0A0009E35E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96A3E4E91E55EB0A0009E35E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		96A3E4EC1E55EB0A0009E35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96A3E4EE1E55EB0A0009E35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A3E4F11E55EB0A0009E35E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96A3E4F31E55EB0A0009E35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96A3E4F81E55EB0A0009E35E /* ios-uikit-uiimageview-demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-uikit-uiimageview-demoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96A3E4FC1E55EB0A0009E35E /* ios_uikit_uiimageview_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_uikit_uiimageview_demoTests.swift; sourceTree = "<group>"; };
 		96A3E4FE1E55EB0A0009E35E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96A3E5071E55FFF80009E35E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +80,9 @@
 				96A3E4E71E55EB0A0009E35E /* AppDelegate.swift */,
 				96A3E4E91E55EB0A0009E35E /* ViewController.swift */,
 				96A3E4EB1E55EB0A0009E35E /* Main.storyboard */,
-				96A3E4EE1E55EB0A0009E35E /* Assets.xcassets */,
 				96A3E4F01E55EB0A0009E35E /* LaunchScreen.storyboard */,
 				96A3E4F31E55EB0A0009E35E /* Info.plist */,
+				96A3E5071E55FFF80009E35E /* Assets.xcassets */,
 			);
 			path = "ios-uikit-uiimageview-demo";
 			sourceTree = "<group>";
@@ -182,7 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				96A3E4F21E55EB0A0009E35E /* LaunchScreen.storyboard in Resources */,
-				96A3E4EF1E55EB0A0009E35E /* Assets.xcassets in Resources */,
+				96A3E5081E55FFF80009E35E /* Assets.xcassets in Resources */,
 				96A3E4ED1E55EB0A0009E35E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-uikit-uiimageview-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-uiimageview-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,6 +357,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = PCCZJUYRT6;
 				INFOPLIST_FILE = "ios-uikit-uiimageview-demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "jp.st-ventures.ios-uikit-uiimageview-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
