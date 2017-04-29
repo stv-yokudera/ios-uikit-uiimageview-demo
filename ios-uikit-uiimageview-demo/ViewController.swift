@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupSubView()
+        addGestureRecognizer()
         
         /*
          UIViewContentModeのデフォルト値
@@ -35,6 +36,19 @@ class ViewController: UIViewController {
     // 画像を設定する
     private func configureImage() {
         imageView.image = #imageLiteral(resourceName: "kobaton")
+        imageView.highlightedImage = #imageLiteral(resourceName: "stv")
+    }
+    
+    // タップイベントを設定する
+    private func addGestureRecognizer() {
+        let gestureRecognizer = UITapGestureRecognizer(target: self, action: .tapGesture)
+        imageView.addGestureRecognizer(gestureRecognizer)
+    }
+    
+    // タップでhighlitedを切り替える
+    func tapGesture(sender:UITapGestureRecognizer){
+        print("tapped imageView")
+        imageView.isHighlighted = !imageView.isHighlighted
     }
     
     /*
@@ -71,5 +85,10 @@ class ViewController: UIViewController {
     private func configureMasksToBounds() {
         subView.layer.masksToBounds = true
     }
+}
+
+// MARK: - SecondViewControllerの独自Selectorを作成
+private extension Selector {
+    static let tapGesture = #selector(ViewController.tapGesture(sender:))
 }
 
